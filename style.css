@@ -37,3 +37,31 @@ header .header-right ul li .fa-star{
 header .header-right ul li a:hover{
     color: #000;
 }
+/* responsive */
+@media(max-width:500px){
+    header .header-right ul li a {
+        font-size: 0.8rem;
+    }
+    header .header-left h3{
+        font-size: 1rem;
+    }
+    header {
+        padding: 10px 20px;
+    }
+}
+@media(max-width:330px){
+    header .header-right ul li a {
+        font-size: 0.7rem;
+    }
+}
+@media(max-width:300px){
+    header .header-right{
+        display: none;
+    }
+    header{
+        justify-content: center;
+    }
+    header .header-left h3 {
+        font-size: 1.5rem;
+    }
+}

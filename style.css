@@ -34,3 +34,6 @@ header .header-right ul li a{
 header .header-right ul li .fa-star{
     color: rgb(0, 54, 21);
 }
+header .header-right ul li a:hover{
+    color: #000;
+}

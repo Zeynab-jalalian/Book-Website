@@ -66,6 +66,7 @@ header .header-right ul li a:hover{
     padding: 5px 8px;
     border: 1px solid #26262626;
     margin-bottom: 20px;
+    transition: 0.2s;
 }
 .homepage .h-books img{
   margin: 0 5px;
@@ -78,6 +79,10 @@ header .header-right ul li a:hover{
 .homepage .h-books img:hover{
     transform: scale(1.2);
     margin: 0 20px;
+}
+.homepage a:hover{
+    background-color: white;
+    color: #000;
 }
 /* responsive */
 @media(max-width:500px){

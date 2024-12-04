@@ -49,6 +49,36 @@ header .header-right ul li a:hover{
     flex-direction: column;
     padding: 20px;
 }
+.homepage h1{
+    font-size: 1.5rem;
+    color: #262626;
+}
+.homepage p{
+    margin: 10px 0;
+    font-size: 0.8rem;
+    text-align: center;
+    max-width: 300px;
+    color: #6d6d6d;
+}
+.homepage a{
+    color: #262626;
+    font-size: 1rem;
+    padding: 5px 8px;
+    border: 1px solid #26262626;
+    margin-bottom: 20px;
+}
+.homepage .h-books img{
+  margin: 0 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.homepage .h-books img:nth-child(2){
+    transform: scale(1.2);
+}
+.homepage .h-books img:hover{
+    transform: scale(1.2);
+    margin: 0 20px;
+}
 /* responsive */
 @media(max-width:500px){
     header .header-right ul li a {

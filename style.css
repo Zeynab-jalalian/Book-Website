@@ -127,6 +127,10 @@ header .header-right ul li a:hover{
     border-radius: 15px;
     border: 1px solid #c7c7c7;
     margin: 10px;
+    cursor: pointer;
+}
+.new .n-books .n-book:hover{
+    background-color: #ffe9c8;
 }
 .new .n-books .n-book p{
     color: #262626;

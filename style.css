@@ -120,6 +120,13 @@ header .header-right ul li a:hover{
  align-items: center;
  flex-direction: column;
 }
+.new .n-books .n-book p{
+    color: #262626;
+    font-size: 0.8rem;
+}
+.new .n-books .n-book h3{
+    font-size: 1rem;
+}
 /* responsive */
 @media(max-width:500px){
     header .header-right ul li a {

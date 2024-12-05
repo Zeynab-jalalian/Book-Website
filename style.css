@@ -111,6 +111,15 @@ header .header-right ul li a:hover{
     max-width: 300px;
     color: #6d6d6d;
 }
+.new .n-books{
+    margin: 30px 0;
+}
+.new .n-books .n-book{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
 /* responsive */
 @media(max-width:500px){
     header .header-right ul li a {

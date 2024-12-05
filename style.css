@@ -155,3 +155,20 @@ header .header-right ul li a:hover{
         font-size: 1.5rem;
     }
 }
+@media(max-width:400px){
+    .homepage .h-books img {
+        width: 70px;
+    }
+    .homepage p {
+        max-width: 200px;
+    }
+    .homepage h1 {
+        border-bottom: 1px solid #cccccc;
+        padding: 10px 0;
+    }
+}
+@media(max-width:310px){
+    .homepage .h-books img {
+        width: 50px;
+    }
+}

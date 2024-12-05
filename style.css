@@ -111,8 +111,12 @@ header .header-right ul li a:hover{
     max-width: 300px;
     color: #6d6d6d;
 }
-.new .n-books{
-    margin: 30px 0;
+.new .n-books {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .new .n-books .n-book {
     display: flex;
@@ -122,6 +126,7 @@ header .header-right ul li a:hover{
     padding: 10px 30px;
     border-radius: 15px;
     border: 1px solid #c7c7c7;
+    margin: 10px;
 }
 .new .n-books .n-book p{
     color: #262626;

@@ -172,3 +172,24 @@ header .header-right ul li a:hover{
         width: 50px;
     }
 }
+@media(max-width:250px){
+    .homepage .h-books {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .homepage .h-books img {
+        margin: 20px 0;
+    }
+    .homepage .h-books img {
+        width: 70px;
+    }
+    .homepage .h-books img:nth-child(2){
+        transform: scale(1);
+    }
+    .homepage .h-books img:hover{
+        transform: scale(1.2);
+        margin: 0;
+    }
+}

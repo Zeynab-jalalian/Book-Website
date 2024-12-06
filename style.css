@@ -232,3 +232,12 @@ header .header-right ul li a:hover{
         padding: 10px 15px;
     }
 }
+@media(max-width:600px){
+    .brand{
+        padding: 5px;
+    }
+    .brand p{
+        font-size: 1rem;
+        max-width: 400px;
+    }
+}

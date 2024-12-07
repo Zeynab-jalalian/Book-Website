@@ -241,6 +241,34 @@ header .header-right ul li a:hover{
     max-width: 500px;
     color: #6d6d6d;
 }
+.authors .as-box{
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.authors .a-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 30px;
+    margin: 10px;
+}
+.authors .a-box img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.authors .a-box h3{
+    margin: 10px 0 2px;
+    font-size: 1rem;
+}
+.authors .a-box p{
+    font-size: 0.8rem;
+}
 /* responsive */
 @media(max-width:500px){
     header .header-right ul li a {

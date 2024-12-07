@@ -244,7 +244,7 @@ header .header-right ul li a:hover{
 .authors .as-box{
     margin: 30px auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -265,9 +265,11 @@ header .header-right ul li a:hover{
 .authors .a-box h3{
     margin: 10px 0 2px;
     font-size: 1rem;
+    text-align: center;
 }
 .authors .a-box p{
     font-size: 0.8rem;
+    text-align: center;
 }
 /* responsive */
 @media(max-width:500px){
@@ -351,6 +353,9 @@ header .header-right ul li a:hover{
     }
     .authors h1 {
         font-size: 1.2rem;
+    }
+    .authors .a-box {
+     padding: 0;
     }
 }
 @media(max-width:600px){

@@ -288,6 +288,12 @@ header .header-right ul li a:hover{
     .new .n-books .n-book {
         padding: 10px 15px;
     }
+    .bestselling h1{
+        font-size: 1.2rem;
+    }
+    .bestselling .bs-books .bs-book {
+        padding: 10px 15px;
+    }
 }
 @media(max-width:600px){
     .brand{
@@ -296,5 +302,16 @@ header .header-right ul li a:hover{
     .brand p{
         font-size: 1rem;
         max-width: 400px;
+    }
+    .bestselling p {
+        max-width: 300px;
+    }
+}
+@media(max-width:210px){
+    .bestselling h1 {
+        font-size: 1rem;
+    }
+    .bestselling p {
+       font-size: 0.7rem;
     }
 }

@@ -217,6 +217,30 @@ header .header-right ul li a:hover{
 .bestselling .bs-books .bs-book h3{
     font-size: 1rem;
 }
+/* Authors */
+.authors{
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background: #ffe9c8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.authors h1{
+    font-size: 1.5rem;
+    color: #262626;
+    padding: 10px 0px;
+    border-bottom: 1px solid #cccccc;
+}
+.authors p{
+    margin: 10px 0;
+    font-size: 0.8rem;
+    text-align: center;
+    max-width: 500px;
+    color: #6d6d6d;
+}
 /* responsive */
 @media(max-width:500px){
     header .header-right ul li a {

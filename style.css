@@ -252,6 +252,9 @@ header .header-right ul li a:hover{
     header {
         padding: 10px 20px;
     }
+    .authors p {
+        max-width: 300px;
+    }
 }
 @media(max-width:330px){
     header .header-right ul li a {
@@ -318,6 +321,9 @@ header .header-right ul li a:hover{
     .bestselling .bs-books .bs-book {
         padding: 10px 15px;
     }
+    .authors h1 {
+        font-size: 1.2rem;
+    }
 }
 @media(max-width:600px){
     .brand{
@@ -329,6 +335,9 @@ header .header-right ul li a:hover{
     }
     .bestselling p {
         max-width: 300px;
+    }
+    .authors p {
+        max-width: 400px;
     }
 }
 @media(max-width:210px){

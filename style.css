@@ -335,6 +335,11 @@ header .header-right ul li a:hover {
     color: rgba(255, 255, 255, 0.8);
     font-size: 1.5rem;
 }
+.input-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .input .input-right a{
     background-color: #000;
     color: rgb(255, 255, 255,0.7);
@@ -342,11 +347,24 @@ header .header-right ul li a:hover {
     border-radius: 2px;
     padding: 10px 12px;
     display: block;
+    margin-left: 10px;
 }
 .input .input-right a:hover{
     background-color: white;
     color: #000;
     border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.input .input-right input{
+    color: rgb(0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 2px;
+    padding: 10px 12px;
+    width: 300px;
+    outline: none;
+    border: none;
+}
+.input .input-right input::placeholder{
+    color: #262626;
 }
 /* responsive */
 @media(max-width:500px) {

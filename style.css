@@ -322,10 +322,18 @@ header .header-right ul li a:hover {
     justify-content: space-between;
     align-items: center;
     padding: 50px;
+    background: url('img/input.jpg');
+    background-position: center;
+    background-size: cover;
 }
 .input .input-left p{
-    max-width: 200px;
-    line-height: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    max-width: 300px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.5rem;
 }
 /* responsive */
 @media(max-width:500px) {

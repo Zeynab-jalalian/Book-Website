@@ -386,6 +386,12 @@ header .header-right ul li a:hover {
     .authors p {
         max-width: 300px;
     }
+    .input .input-right input {
+        width: 200px;
+    }
+    .input .input-left p{
+        font-size: 1.2rem !important;
+    }
 }
 
 @media(max-width:330px) {
@@ -477,6 +483,9 @@ header .header-right ul li a:hover {
     .authors .a-box {
         padding: 0;
     }
+    .input .input-right input {
+        width: 150px;
+    }
 }
 
 @media(max-width:600px) {
@@ -505,5 +514,38 @@ header .header-right ul li a:hover {
 
     .bestselling p {
         font-size: 0.7rem;
+    }
+}
+@media(max-width:900px){
+    .input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .input .input-left p {
+        border-radius: 10px;
+        padding: 5px;
+        background: rgba(0, 0, 0, 0.5);
+        max-width: 300px;
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 1.3rem;
+        text-align: center;
+        margin: 30px 0;
+    }
+}
+@media(max-width:350px){
+    .input-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .input-right a{
+        margin: 10px 0;
+    }
+    .input .input-right input{
+        text-align: center;
     }
 }

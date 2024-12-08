@@ -366,6 +366,9 @@ header .header-right ul li a:hover {
 .input .input-right input::placeholder{
     color: #262626;
 }
+.input .input-right input:hover{
+    box-shadow: 0 0 14px rgb(255, 205, 69);
+}
 /* responsive */
 @media(max-width:500px) {
     header .header-right ul li a {

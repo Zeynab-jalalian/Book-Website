@@ -369,6 +369,16 @@ header .header-right ul li a:hover {
 .input .input-right input:hover{
     box-shadow: 0 0 14px rgb(255, 205, 69);
 }
+/* footer */
+footer{
+    background:#ffe9c8;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /* responsive */
 @media(max-width:500px) {
     header .header-right ul li a {

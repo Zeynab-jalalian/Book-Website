@@ -1,50 +1,59 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-        font-family: "Questrial", sans-serif;
-        font-weight: 400;
-        font-style: normal;
+
+body {
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-a{
+
+a {
     text-decoration: none;
 }
-ul{
+
+ul {
     list-style: none;
 }
+
 /* header */
-header{
+header {
     width: 100%;
     height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:10px 50px;
-    box-shadow: 0 5px 8px rgba(0,0,0,0.3);
+    padding: 10px 50px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
 }
-header .header-right ul{ 
+
+header .header-right ul {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-header .header-right ul li{
+header .header-right ul li {
     margin: 0 10px;
 }
-header .header-right ul li a{
+
+header .header-right ul li a {
     font-size: 1rem;
     color: #6d6d6d;
 }
-header .header-right ul li .fa-star{
+
+header .header-right ul li .fa-star {
     color: rgb(0, 54, 21);
 }
-header .header-right ul li a:hover{
+
+header .header-right ul li a:hover {
     color: #000;
 }
+
 /* homepage */
-.homepage{
+.homepage {
     background: #ffe9c8;
     width: 100%;
     height: 100%;
@@ -54,18 +63,21 @@ header .header-right ul li a:hover{
     flex-direction: column;
     padding: 20px;
 }
-.homepage h1{
+
+.homepage h1 {
     font-size: 1.5rem;
     color: #262626;
 }
-.homepage p{
+
+.homepage p {
     margin: 10px 0;
     font-size: 0.8rem;
     text-align: center;
     max-width: 300px;
     color: #6d6d6d;
 }
-.homepage a{
+
+.homepage a {
     color: #262626;
     font-size: 1rem;
     padding: 5px 8px;
@@ -73,27 +85,33 @@ header .header-right ul li a:hover{
     margin-bottom: 20px;
     transition: 0.2s;
 }
-.homepage .h-books{
+
+.homepage .h-books {
     margin-top: 20px;
 }
-.homepage .h-books img{
-  margin: 0 5px;
-  cursor: pointer;
-  transition: 0.5s;
+
+.homepage .h-books img {
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.5s;
 }
-.homepage .h-books img:nth-child(2){
+
+.homepage .h-books img:nth-child(2) {
     transform: scale(1.2);
 }
-.homepage .h-books img:hover{
+
+.homepage .h-books img:hover {
     transform: scale(1.2);
     margin: 0 20px;
 }
-.homepage a:hover{
+
+.homepage a:hover {
     background-color: white;
     color: #000;
 }
+
 /* new */
-.new{
+.new {
     padding: 20px;
     width: 100%;
     height: 100%;
@@ -103,19 +121,22 @@ header .header-right ul li a:hover{
     align-items: center;
     flex-direction: column;
 }
-.new h1{
+
+.new h1 {
     font-size: 1.5rem;
     color: #262626;
     padding: 10px 0px;
     border-bottom: 1px solid #cccccc;
 }
-.new p{
+
+.new p {
     margin: 10px 0;
     font-size: 0.8rem;
     text-align: center;
     max-width: 300px;
     color: #6d6d6d;
 }
+
 .new .n-books {
     margin: 30px auto;
     display: flex;
@@ -123,6 +144,7 @@ header .header-right ul li a:hover{
     align-items: center;
     flex-wrap: wrap;
 }
+
 .new .n-books .n-book {
     display: flex;
     justify-content: center;
@@ -134,18 +156,22 @@ header .header-right ul li a:hover{
     margin: 10px;
     cursor: pointer;
 }
-.new .n-books .n-book:hover{
+
+.new .n-books .n-book:hover {
     background-color: #ffe9c8;
 }
-.new .n-books .n-book p{
+
+.new .n-books .n-book p {
     color: #262626;
     font-size: 0.8rem;
 }
-.new .n-books .n-book h3{
+
+.new .n-books .n-book h3 {
     font-size: 1rem;
 }
+
 /* brand */
-.brand{
+.brand {
     width: 100%;
     height: 100%;
     padding: 100px;
@@ -156,7 +182,8 @@ header .header-right ul li a:hover{
     justify-content: center;
     align-items: center;
 }
-.brand p{
+
+.brand p {
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
     background: rgba(0, 0, 0, 0.3);
@@ -165,8 +192,9 @@ header .header-right ul li a:hover{
     text-align: center;
     max-width: 500px;
 }
+
 /* bestselling */
-.bestselling{
+.bestselling {
     padding: 20px;
     width: 100%;
     height: 100%;
@@ -176,27 +204,31 @@ header .header-right ul li a:hover{
     align-items: center;
     flex-direction: column;
 }
-.bestselling h1{
+
+.bestselling h1 {
     font-size: 1.5rem;
     color: #262626;
     padding: 10px 0px;
     border-bottom: 1px solid #cccccc;
 }
-.bestselling p{
+
+.bestselling p {
     margin: 10px 0;
     font-size: 0.8rem;
     text-align: center;
     max-width: 500px;
     color: #6d6d6d;
 }
-.bestselling .bs-books{
+
+.bestselling .bs-books {
     margin: 30px auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
-.bestselling .bs-book{
+
+.bestselling .bs-book {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -207,18 +239,22 @@ header .header-right ul li a:hover{
     margin: 10px;
     cursor: pointer;
 }
-.bestselling .bs-books .bs-book:hover{
+
+.bestselling .bs-books .bs-book:hover {
     background-color: #ffe9c8;
 }
-.bestselling .bs-books .bs-book p{
+
+.bestselling .bs-books .bs-book p {
     color: #262626;
     font-size: 0.8rem;
 }
-.bestselling .bs-books .bs-book h3{
+
+.bestselling .bs-books .bs-book h3 {
     font-size: 1rem;
 }
+
 /* Authors */
-.authors{
+.authors {
     padding: 20px;
     width: 100%;
     height: 100%;
@@ -228,27 +264,31 @@ header .header-right ul li a:hover{
     align-items: center;
     flex-direction: column;
 }
-.authors h1{
+
+.authors h1 {
     font-size: 1.5rem;
     color: #262626;
     padding: 10px 0px;
     border-bottom: 1px solid #cccccc;
 }
-.authors p{
+
+.authors p {
     margin: 10px 0;
     font-size: 0.8rem;
     text-align: center;
     max-width: 500px;
     color: #6d6d6d;
 }
-.authors .as-box{
+
+.authors .as-box {
     margin: 30px auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
-.authors .a-box{
+
+.authors .a-box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -256,128 +296,168 @@ header .header-right ul li a:hover{
     padding: 10px 30px;
     margin: 10px;
 }
-.authors .a-box img{
+
+.authors .a-box img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
 }
-.authors .a-box h3{
+
+.authors .a-box h3 {
     margin: 10px 0 2px;
     font-size: 1rem;
     text-align: center;
 }
-.authors .a-box p{
+
+.authors .a-box p {
     font-size: 0.8rem;
     text-align: center;
 }
+/* input */
+.input{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
 /* responsive */
-@media(max-width:500px){
+@media(max-width:500px) {
     header .header-right ul li a {
         font-size: 0.8rem;
     }
-    header .header-left h3{
+
+    header .header-left h3 {
         font-size: 1rem;
     }
+
     header {
         padding: 10px 20px;
     }
+
     .authors p {
         max-width: 300px;
     }
 }
-@media(max-width:330px){
+
+@media(max-width:330px) {
     header .header-right ul li a {
         font-size: 0.7rem;
     }
 }
-@media(max-width:300px){
-    header .header-right{
+
+@media(max-width:300px) {
+    header .header-right {
         display: none;
     }
-    header{
+
+    header {
         justify-content: center;
     }
+
     header .header-left h3 {
         font-size: 1.5rem;
     }
 }
-@media(max-width:400px){
+
+@media(max-width:400px) {
     .homepage .h-books img {
         width: 70px;
     }
+
     .homepage p {
         max-width: 200px;
     }
+
     .homepage h1 {
         border-bottom: 1px solid #cccccc;
         padding: 10px 0;
     }
 }
-@media(max-width:310px){
+
+@media(max-width:310px) {
     .homepage .h-books img {
         width: 50px;
     }
 }
-@media(max-width:250px){
+
+@media(max-width:250px) {
     .homepage .h-books {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
+
     .homepage .h-books img {
         margin: 20px 0;
     }
+
     .homepage .h-books img {
         width: 70px;
     }
-    .homepage .h-books img:nth-child(2){
+
+    .homepage .h-books img:nth-child(2) {
         transform: scale(1);
     }
-    .homepage .h-books img:hover{
+
+    .homepage .h-books img:hover {
         transform: scale(1.2);
         margin: 0;
     }
+
     .new h1 {
         font-size: 1.2rem;
     }
+
     .new .n-books .n-book {
         padding: 10px 15px;
     }
-    .bestselling h1{
+
+    .bestselling h1 {
         font-size: 1.2rem;
     }
+
     .bestselling .bs-books .bs-book {
         padding: 10px 15px;
     }
+
     .authors h1 {
         font-size: 1.2rem;
     }
+
     .authors .a-box {
-     padding: 0;
+        padding: 0;
     }
 }
-@media(max-width:600px){
-    .brand{
+
+@media(max-width:600px) {
+    .brand {
         padding: 5px;
     }
-    .brand p{
+
+    .brand p {
         font-size: 1rem;
         max-width: 400px;
     }
+
     .bestselling p {
         max-width: 300px;
     }
+
     .authors p {
         max-width: 400px;
     }
 }
-@media(max-width:210px){
+
+@media(max-width:210px) {
     .bestselling h1 {
         font-size: 1rem;
     }
+
     .bestselling p {
-       font-size: 0.7rem;
+        font-size: 0.7rem;
     }
 }

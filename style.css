@@ -379,6 +379,7 @@ footer{
     justify-content: space-between;
     align-items: start;
 }
+
 footer .footer1{
     display: flex;
     justify-content: center;
@@ -626,5 +627,16 @@ footer .f ul li a:hover{
     }
     footer .footer1 ul li a {
         font-size: 0.7rem;
+    }
+}
+@media(max-width:800px){
+    footer{
+     flex-wrap: wrap;
+    }
+    footer .f{
+        margin: 10px;
+    }
+    footer .footer1{
+        order: 6;
     }
 }

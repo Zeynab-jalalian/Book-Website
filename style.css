@@ -377,7 +377,7 @@ footer{
     padding: 50px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
 }
 footer .footer1{
     display: flex;
@@ -614,5 +614,17 @@ footer .f ul li a:hover{
     }
     .input .input-right input{
         text-align: center;
+    }
+}
+@media(max-width:1000px){
+    footer .footer1 p {
+        max-width: 150px;
+    }
+    footer .footer1 ul li {
+        width: 20px;
+        height: 20px;
+    }
+    footer .footer1 ul li a {
+        font-size: 0.7rem;
     }
 }

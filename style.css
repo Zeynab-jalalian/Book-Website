@@ -396,6 +396,32 @@ footer .footer1 p{
     text-align: center;
     margin-bottom: 10px;
 }
+footer .footer1 ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .footer1 ul li{
+    margin: 0 10px;
+    background: #000;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #262626;
+}
+footer .footer1 ul li a{
+    color: white;
+    font-size: 0.9rem;
+}
+footer .footer1 ul li:hover a{
+    color: #000;
+}
+footer .footer1 ul li:hover{
+    background: #fff;
+}
 /* responsive */
 @media(max-width:500px) {
     header .header-right ul li a {

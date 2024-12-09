@@ -379,6 +379,23 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
+footer .footer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer .footer1 h1{
+    margin: 10px 0;
+    font-size: 1.3rem;
+}
+footer .footer1 p{
+    font-size: 0.8rem;
+    max-width: 250px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
 /* responsive */
 @media(max-width:500px) {
     header .header-right ul li a {
